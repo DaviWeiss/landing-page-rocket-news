@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>RocketNews</title>
+</head>
+<body>
+    <main>
+        <div class="content">
+            <img src="./assets/imgs/logo.svg" alt="" class="img-logo">
+            <section class="text-content">
+                <h3>atualize ideias e informações em 5 minutos.</h3>
+                <h4>tudo que você precisa saber para começar seu dia bem e informado</h4>
+                <p>noticias sobre o universo Rocketseat, e tudo o que precisa para começar o dia melhor. 
+                    <br>
+                    perfeito para se preparar para codar ☕</p>
+            </section>
+            <form>
+                <label for="email">Insira seu e-mail</label>
+                <div class="content-input">
+                    <div class="box-input"></div>
+                    <input type="email" id="email" placeholder="oi@rocketseat.com" required>
+                    <button type="button" class="box-send" onclick="send()">
+                        <img src="./assets/imgs/send.svg" alt="" class="enviar">
+                    </button>
+                </div>
+            </form>
+            <a class="link-footer">
+                <span>Deixe-me ler primeiro</span>
+                <img src="./assets/imgs/arrow-right.svg" alt="" class="seta-link">
+            </a>
+        </div>
+        <img class="read-news" src="./assets/imgs/read_news.jpg">
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
